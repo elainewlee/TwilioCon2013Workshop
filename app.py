@@ -121,8 +121,8 @@ def handle_recording():
     return """<Response><Say>Callback to listen to the last recording!</Say></Response>"""
 
 #Sidequest: Use the REST API to pull down the last three recordings for your account, and play all three instead of just one
-account_sid = "AC992eb1da594c3c5f691825a2e51b5b37"
-auth_token  = "{{ 052d8906b957d9d49fa004a87436ca46 }}"
+account_sid = "redacted"
+auth_token  = "{{ redacted }}"
 client = TwilioRestClient(account_sid, auth_token)
  #client.recordings.delete("RE557ce644e5ab84fa21cc21112e22c485")
 
